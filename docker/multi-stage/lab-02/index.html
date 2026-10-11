@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Docker Quest Level 2</title>
+
+</head>
+
+<body>
+
+    <h1>Docker Multi-stage Challenge</h1>
+
+    <p id="status">Application started!</p>
+
+
+
+    <button id="btn">Click me</button>
+
+
+
+    <script type="module">
+
+        let count = 0;
+
+
+
+        document.getElementById("btn")
+
+            .addEventListener("click", () => {
+
+                count++;
+
+                document.getElementById("status")
+
+                    .textContent = `Clicked ${count} times`;
+
+            });
+
+    </script>
+
+</body>
+
+</html>
+
+
