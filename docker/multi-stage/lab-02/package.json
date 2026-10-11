@@ -1,0 +1,25 @@
+
+
+{
+
+  "name": "docker-quest-2",
+
+  "version": "1.0.0",
+
+  "type": "module",
+
+  "scripts": {
+
+    "build": "vite build"
+
+  },
+
+  "devDependencies": {
+
+    "vite": "^6.0.0"
+
+  }
+
+}
+
+
