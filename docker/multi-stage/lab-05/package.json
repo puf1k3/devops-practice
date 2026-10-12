@@ -1,0 +1,35 @@
+{
+
+  "name": "payment-api",
+
+  "version": "1.0.0",
+
+  "scripts": {
+
+    "dev": "tsx watch src/server.ts",
+
+    "build": "tsc",
+
+    "start": "node dist/server.js"
+
+  },
+
+  "dependencies": {
+
+    "express": "4.21.2"
+
+  },
+
+  "devDependencies": {
+
+    "@types/express": "4.17.21",
+
+    "@types/node": "22.13.10",
+
+    "typescript": "5.8.2",
+
+    "tsx": "4.19.2"
+
+  }
+
+}
